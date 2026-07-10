@@ -1,5 +1,5 @@
 body {
-    background-image: url("bg.jpg");
+    background-image: url("images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,18 +79,25 @@ nav a {
 
 .images {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 20px;
+    justify-content: center;
+
+    
 }
 
 .images img {
     border-radius: 10px;
+    display: block;
+    height: 250px;
+    width: 300px;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #222;
+    background: #060606;
     color: white;
 }
